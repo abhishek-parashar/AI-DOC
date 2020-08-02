@@ -1,0 +1,2 @@
+# AI-DOC
+AI-DOC is a medical application. Developed to assist the doctors and the individual patients to comprehend the laboratory data to infer whether the person is suffering from a particular disease or not. Many diseases are analysed in this medical application more diseases would be added later. The application uses multiple machine learning and deep learning models, developed using Flask and deployed to Heroku.
