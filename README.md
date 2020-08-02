@@ -44,23 +44,23 @@ The following dependencies can be found in [requirements.txt](https://github.com
   8. [gunicorn](https://gunicorn.org/)
   
 ### Down below are the names of the various model files used:
-1.Cancer model = model
-2.Diabetes model = model1
-3.Heart model = model2
-4.Liver model = model4
-5.Kidney model = model3
-6.Malaria model = model111.h5
-7.Pneumonia model = my_model.h5
+1. Cancer model = model
+2. Diabetes model = model1
+3. Heart model = model2
+4. Liver model = model4
+5. Kidney model = model3
+6. Malaria model = model111.h5
+7. Pneumonia model = my_model.h5
   
 
 ### Details of various datasets used for model development :
 1. Cancer : cancer.csv [In the repository]
 2. Diabetes : diabetes.csv [In the repository]
-3.Heart : heart.csv [In the repository]
-4.Liver : https://www.kaggle.com/uciml/indian-liver-patient-records
-5.Kidney : https://www.kaggle.com/mansoordaku/ckdisease
-6.Malaria : https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
-7.Pneumonia: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+3. Heart : heart.csv [In the repository]
+4. Liver : https://www.kaggle.com/uciml/indian-liver-patient-records
+5. Kidney : https://www.kaggle.com/mansoordaku/ckdisease
+6. Malaria : https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
+7 .Pneumonia: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
 
