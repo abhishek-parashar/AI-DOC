@@ -1,7 +1,6 @@
 # AI-DOC
 AI-DOC is a medical application. Developed to assist the doctors and the individual patients to comprehend the laboratory data to infer whether the person is suffering from a particular disease or not. Many diseases are analysed in this medical application more diseases would be added later. The application uses multiple machine learning and deep learning models, developed using Flask and deployed to Heroku.
 It's live at https://ai-doc.herokuapp.com/. 
----
 ### Structure
 
 The directory contains web sub directories and a sub directory for hosting model and other scripts:
@@ -19,7 +18,7 @@ The directory contains web sub directories and a sub directory for hosting model
 ### Codebase
 
 The entire code has been developed using Python programming language and is hosted on Heroku. The analysis and model is developed using SkcitLearn library and various machine learning models, The website is developed using Flask. 
----
+
 ### How to run the project:
 
   1. Open the `Terminal`.
