@@ -1,6 +1,7 @@
 # AI-DOC
 AI-DOC is a medical application. Developed to assist the doctors and the individual patients to comprehend the laboratory data to infer whether the person is suffering from a particular disease or not. Many diseases are analysed in this medical application more diseases would be added later. The application uses multiple machine learning and deep learning models, developed using Flask and deployed to Heroku.
 It's live at https://ai-doc.herokuapp.com/. 
+---
 ### Structure
 
 The directory contains web sub directories and a sub directory for hosting model and other scripts:
@@ -14,11 +15,11 @@ The directory contains web sub directories and a sub directory for hosting model
 4. [templates](https://github.com/abhishek-parashar/AI-DOC/tree/master/templates) contains the html file.
 
 5. [static](https://github.com/abhishek-parashar/AI-DOC/tree/master/static) contains the css file.
-  
+--- 
 ### Codebase
 
 The entire code has been developed using Python programming language and is hosted on Heroku. The analysis and model is developed using SkcitLearn library and various machine learning models, The website is developed using Flask. 
-
+---
 ### How to run the project:
 
   1. Open the `Terminal`.
@@ -29,7 +30,7 @@ The entire code has been developed using Python programming language and is host
   6. Enter the cloned repository directory and execute `pip install -r requirements.txt`.
   7. Now, execute the following command: `flask run` and it will point to the `localhost` server with the port `5000`.
   8. Enter the `IP Address: http://localhost:5000` on a web browser and use the application.
-  
+ --- 
 ### Dependencies
 
 The following dependencies can be found in [requirements.txt](https://github.com/abhishek-parashar/Reddit-flair-detection/blob/master/requirements.txt):
@@ -42,7 +43,7 @@ The following dependencies can be found in [requirements.txt](https://github.com
   6. [numpy](http://www.numpy.org/)
   7. [scikit-learn](https://scikit-learn.org/stable/index.html)
   8. [gunicorn](https://gunicorn.org/)
-  
+ --- 
 ### Down below are the names of the various model files used:
 1. Cancer model = model
 2. Diabetes model = model1
@@ -52,7 +53,7 @@ The following dependencies can be found in [requirements.txt](https://github.com
 6. Malaria model = model111.h5
 7. Pneumonia model = my_model.h5
   
-
+---
 ### Details of various datasets used for model development :
 1. Cancer : cancer.csv [In the repository]
 2. Diabetes : diabetes.csv [In the repository]
@@ -61,7 +62,7 @@ The following dependencies can be found in [requirements.txt](https://github.com
 5. Kidney : https://www.kaggle.com/mansoordaku/ckdisease
 6. Malaria : https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
 7 .Pneumonia: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-
+---
 
 
 
