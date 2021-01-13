@@ -60,7 +60,7 @@ The following dependencies can be found in [requirements.txt](https://github.com
 4. Liver : https://www.kaggle.com/uciml/indian-liver-patient-records
 5. Kidney : https://www.kaggle.com/mansoordaku/ckdisease
 6. Malaria : https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
-7 .Pneumonia: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+7. Pneumonia: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 ---
 
 
