@@ -62,8 +62,37 @@
 
     <h3 style="margin-top: 40px"><b>Predicted Label: <span style="color: green">{{ label }}</span></b></h3>
     <h3><b>Accuracy : <span style="color: green;">{{ accuracy }} %</span></b></h3>
-     <a href="/"><input type="submit" value="Back to Home"</a>
+     <a href="/"><input type="submit" value="Back to Home"></a>
 </div>
+
+<div class="container",class="form-group">
+    <h2>Book an appointment:</h2>
+    <form action="/action_page.php">
+      <label>Select Appointment Date: </label>
+      <input type="date" name="Select Appointment Date">
+      <p>To book an appointment, please select a lab:</p>
+      <input type="radio" id="lab1" name="labs" value="Dr Lal PathLabs">
+      <label for="lab1"><h4>Dr Lal PathLabs</h4></label><br>
+      <ul>
+        <li> Diagnostic Center </li>
+        <li> Contact Number: 011 3040 3214 </li>
+        <li> Address: Plot no. 60 , Sector 12, Dwarka, B School, beside Bal Bharti
+        <li><p> Website: <a href="https://www.lalpathlabs.com/" target = “_blanck”> https://www.lalpathlabs.com/ </a></p> </li>
+      </ul>
+      
+      <input type="radio" id="lab2" name="labs" value="City Xray Clinic">
+      <label for="lab1"><h4>City Xray Clinic</h4></label><br>
+      <ul>
+        <li> Diagnostic Center  </li>
+          <li> Contact Number: 011 4716 2000 </li>
+          <li> Address: A, School, Plot No, 18, Sector 12 Rd, opp. bal bharti, Dwarka, New Delhi, Delhi 110075 </li>
+          <li><p> Website: <a href="http://cityxrayclinic.com/" target = “_blanck”> http://cityxrayclinic.com/ </a></p> </li>
+      </ul>
+
+      <input type="submit" value="Book Appointment"><br><br>
+  </div>
+
+
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
